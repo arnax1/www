@@ -1,0 +1,44 @@
+.login_strip {
+	height: 27px;
+	background-color: #00ade2;
+}
+
+.login_strip ul {
+  list-style: none;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+  margin-left: 60%;
+}
+
+.login_strip li {
+  font-family: Tahoma;
+  font-size: 12px;
+  line-height: 27px;
+  height: 27px;
+  border-left: 1px solid #888;
+  display: inline-block;
+  margin-right: -5px;
+}
+ 
+.login_strip a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+  padding-left: 10px;
+  padding-right: 30px;
+}
+ 
+.login_strip a:hover {
+  background-color: #349bc5;
+}
+ 
+.login_strip  img{
+  position: absolute;
+  top: 3px;
+  padding-left: 5px;
+  height: 20px;
+  width: 20px;
+  
+}
